@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Magic-App-
-//
-//  Created by hellen.heiny.f.santi on 01/06/23.
-//
-
 import UIKit
 
 @main

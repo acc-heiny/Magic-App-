@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F339D7D32A28DE2000FDE01B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D7D22A28DE2000FDE01B /* AppDelegate.swift */; };
-		F339D7D52A28DE2000FDE01B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D7D42A28DE2000FDE01B /* SceneDelegate.swift */; };
-		F339D7D72A28DE2000FDE01B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D7D62A28DE2000FDE01B /* ViewController.swift */; };
-		F339D7DA2A28DE2000FDE01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F339D7D82A28DE2000FDE01B /* Main.storyboard */; };
-		F339D7DC2A28DE2100FDE01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F339D7DB2A28DE2100FDE01B /* Assets.xcassets */; };
 		F339D7DF2A28DE2100FDE01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F339D7DD2A28DE2100FDE01B /* LaunchScreen.storyboard */; };
 		F339D7EA2A28DE2100FDE01B /* Magic_App_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D7E92A28DE2100FDE01B /* Magic_App_Tests.swift */; };
 		F339D7F42A28DE2100FDE01B /* Magic_App_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D7F32A28DE2100FDE01B /* Magic_App_UITests.swift */; };
 		F339D7F62A28DE2100FDE01B /* Magic_App_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D7F52A28DE2100FDE01B /* Magic_App_UITestsLaunchTests.swift */; };
+		F339D86C2A28DEB900FDE01B /* CardSets.json in Resources */ = {isa = PBXBuildFile; fileRef = F339D86A2A28DEB900FDE01B /* CardSets.json */; };
+		F339D86D2A28DEB900FDE01B /* Card.json in Resources */ = {isa = PBXBuildFile; fileRef = F339D86B2A28DEB900FDE01B /* Card.json */; };
+		F339D8712A28DED100FDE01B /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D86F2A28DED100FDE01B /* CardModel.swift */; };
+		F339D8722A28DED100FDE01B /* CardSetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8702A28DED100FDE01B /* CardSetsModel.swift */; };
+		F339D87E2A28DEDC00FDE01B /* VisualizationCardsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8752A28DEDC00FDE01B /* VisualizationCardsCollectionViewDataSource.swift */; };
+		F339D87F2A28DEDC00FDE01B /* ExpansionsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8762A28DEDC00FDE01B /* ExpansionsCollectionViewDataSource.swift */; };
+		F339D8802A28DEDC00FDE01B /* VisualizationCardsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8782A28DEDC00FDE01B /* VisualizationCardsViewCell.swift */; };
+		F339D8812A28DEDC00FDE01B /* CollectionViewCellExpansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8792A28DEDC00FDE01B /* CollectionViewCellExpansions.swift */; };
+		F339D8822A28DEDC00FDE01B /* VisualizationCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D87A2A28DEDC00FDE01B /* VisualizationCardsView.swift */; };
+		F339D8832A28DEDC00FDE01B /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D87B2A28DEDC00FDE01B /* LoaderView.swift */; };
+		F339D8842A28DEDC00FDE01B /* DetailsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D87C2A28DEDC00FDE01B /* DetailsCardView.swift */; };
+		F339D8852A28DEDC00FDE01B /* ExpansionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D87D2A28DEDC00FDE01B /* ExpansionsView.swift */; };
+		F339D88E2A28DEE800FDE01B /* ExpansionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8872A28DEE800FDE01B /* ExpansionsViewController.swift */; };
+		F339D88F2A28DEE800FDE01B /* DetailsCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8882A28DEE800FDE01B /* DetailsCardViewController.swift */; };
+		F339D8902A28DEE800FDE01B /* VisualizationCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8892A28DEE800FDE01B /* VisualizationCardsViewController.swift */; };
+		F339D8912A28DEE800FDE01B /* ExpansionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D88B2A28DEE800FDE01B /* ExpansionsCollectionViewController.swift */; };
+		F339D8922A28DEE800FDE01B /* MyCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D88C2A28DEE800FDE01B /* MyCardsViewController.swift */; };
+		F339D8932A28DEE800FDE01B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D88D2A28DEE800FDE01B /* TabBarController.swift */; };
+		F339D8952A28DF0D00FDE01B /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8942A28DF0D00FDE01B /* ViewConfiguration.swift */; };
+		F339D8972A28DF2700FDE01B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8962A28DF2700FDE01B /* AppDelegate.swift */; };
+		F339D8992A28DF3100FDE01B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8982A28DF3100FDE01B /* SceneDelegate.swift */; };
+		F339D89C2A28E00000FDE01B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F339D89B2A28E00000FDE01B /* SnapKit */; };
+		F339D89F2A28E01000FDE01B /* MTGSDKSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F339D89E2A28E01000FDE01B /* MTGSDKSwift */; };
+		F339D8A12A28E0D200FDE01B /* MyCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8A02A28E0D200FDE01B /* MyCardsView.swift */; };
+		F339D8A32A28E2CE00FDE01B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F339D8A22A28E2CE00FDE01B /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +57,6 @@
 
 /* Begin PBXFileReference section */
 		F339D7CF2A28DE2000FDE01B /* Magic-App-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic-App-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F339D7D22A28DE2000FDE01B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F339D7D42A28DE2000FDE01B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F339D7D62A28DE2000FDE01B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F339D7D92A28DE2000FDE01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F339D7DB2A28DE2100FDE01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F339D7DE2A28DE2100FDE01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F339D7E02A28DE2100FDE01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F339D7E52A28DE2100FDE01B /* Magic-App-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic-App-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +64,29 @@
 		F339D7EF2A28DE2100FDE01B /* Magic-App-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic-App-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F339D7F32A28DE2100FDE01B /* Magic_App_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_App_UITests.swift; sourceTree = "<group>"; };
 		F339D7F52A28DE2100FDE01B /* Magic_App_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_App_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F339D86A2A28DEB900FDE01B /* CardSets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CardSets.json; sourceTree = "<group>"; };
+		F339D86B2A28DEB900FDE01B /* Card.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Card.json; sourceTree = "<group>"; };
+		F339D86F2A28DED100FDE01B /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		F339D8702A28DED100FDE01B /* CardSetsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSetsModel.swift; sourceTree = "<group>"; };
+		F339D8752A28DEDC00FDE01B /* VisualizationCardsCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizationCardsCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		F339D8762A28DEDC00FDE01B /* ExpansionsCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionsCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		F339D8782A28DEDC00FDE01B /* VisualizationCardsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizationCardsViewCell.swift; sourceTree = "<group>"; };
+		F339D8792A28DEDC00FDE01B /* CollectionViewCellExpansions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellExpansions.swift; sourceTree = "<group>"; };
+		F339D87A2A28DEDC00FDE01B /* VisualizationCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizationCardsView.swift; sourceTree = "<group>"; };
+		F339D87B2A28DEDC00FDE01B /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		F339D87C2A28DEDC00FDE01B /* DetailsCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCardView.swift; sourceTree = "<group>"; };
+		F339D87D2A28DEDC00FDE01B /* ExpansionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionsView.swift; sourceTree = "<group>"; };
+		F339D8872A28DEE800FDE01B /* ExpansionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionsViewController.swift; sourceTree = "<group>"; };
+		F339D8882A28DEE800FDE01B /* DetailsCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCardViewController.swift; sourceTree = "<group>"; };
+		F339D8892A28DEE800FDE01B /* VisualizationCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizationCardsViewController.swift; sourceTree = "<group>"; };
+		F339D88B2A28DEE800FDE01B /* ExpansionsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionsCollectionViewController.swift; sourceTree = "<group>"; };
+		F339D88C2A28DEE800FDE01B /* MyCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardsViewController.swift; sourceTree = "<group>"; };
+		F339D88D2A28DEE800FDE01B /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F339D8942A28DF0D00FDE01B /* ViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		F339D8962A28DF2700FDE01B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F339D8982A28DF3100FDE01B /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F339D8A02A28E0D200FDE01B /* MyCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardsView.swift; sourceTree = "<group>"; };
+		F339D8A22A28E2CE00FDE01B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F339D89F2A28E01000FDE01B /* MTGSDKSwift in Frameworks */,
+				F339D89C2A28E00000FDE01B /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,11 +139,14 @@
 		F339D7D12A28DE2000FDE01B /* Magic-App- */ = {
 			isa = PBXGroup;
 			children = (
-				F339D7D22A28DE2000FDE01B /* AppDelegate.swift */,
-				F339D7D42A28DE2000FDE01B /* SceneDelegate.swift */,
-				F339D7D62A28DE2000FDE01B /* ViewController.swift */,
-				F339D7D82A28DE2000FDE01B /* Main.storyboard */,
-				F339D7DB2A28DE2100FDE01B /* Assets.xcassets */,
+				F339D86E2A28DED100FDE01B /* Model  */,
+				F339D8732A28DEDC00FDE01B /* View */,
+				F339D8862A28DEE800FDE01B /* Controller */,
+				F339D8692A28DEB900FDE01B /* Json-Files */,
+				F339D8942A28DF0D00FDE01B /* ViewConfiguration.swift */,
+				F339D8A22A28E2CE00FDE01B /* Media.xcassets */,
+				F339D8962A28DF2700FDE01B /* AppDelegate.swift */,
+				F339D8982A28DF3100FDE01B /* SceneDelegate.swift */,
 				F339D7DD2A28DE2100FDE01B /* LaunchScreen.storyboard */,
 				F339D7E02A28DE2100FDE01B /* Info.plist */,
 			);
@@ -127,6 +170,77 @@
 			path = "Magic-App-UITests";
 			sourceTree = "<group>";
 		};
+		F339D8692A28DEB900FDE01B /* Json-Files */ = {
+			isa = PBXGroup;
+			children = (
+				F339D86A2A28DEB900FDE01B /* CardSets.json */,
+				F339D86B2A28DEB900FDE01B /* Card.json */,
+			);
+			path = "Json-Files";
+			sourceTree = "<group>";
+		};
+		F339D86E2A28DED100FDE01B /* Model  */ = {
+			isa = PBXGroup;
+			children = (
+				F339D86F2A28DED100FDE01B /* CardModel.swift */,
+				F339D8702A28DED100FDE01B /* CardSetsModel.swift */,
+			);
+			path = "Model ";
+			sourceTree = "<group>";
+		};
+		F339D8732A28DEDC00FDE01B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F339D8742A28DEDC00FDE01B /* DataSource */,
+				F339D8772A28DEDC00FDE01B /* Cells */,
+				F339D87A2A28DEDC00FDE01B /* VisualizationCardsView.swift */,
+				F339D87B2A28DEDC00FDE01B /* LoaderView.swift */,
+				F339D8A02A28E0D200FDE01B /* MyCardsView.swift */,
+				F339D87C2A28DEDC00FDE01B /* DetailsCardView.swift */,
+				F339D87D2A28DEDC00FDE01B /* ExpansionsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F339D8742A28DEDC00FDE01B /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F339D8752A28DEDC00FDE01B /* VisualizationCardsCollectionViewDataSource.swift */,
+				F339D8762A28DEDC00FDE01B /* ExpansionsCollectionViewDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		F339D8772A28DEDC00FDE01B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F339D8782A28DEDC00FDE01B /* VisualizationCardsViewCell.swift */,
+				F339D8792A28DEDC00FDE01B /* CollectionViewCellExpansions.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F339D8862A28DEE800FDE01B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F339D8872A28DEE800FDE01B /* ExpansionsViewController.swift */,
+				F339D8882A28DEE800FDE01B /* DetailsCardViewController.swift */,
+				F339D8892A28DEE800FDE01B /* VisualizationCardsViewController.swift */,
+				F339D88A2A28DEE800FDE01B /* ExpansionsCollectionView */,
+				F339D88C2A28DEE800FDE01B /* MyCardsViewController.swift */,
+				F339D88D2A28DEE800FDE01B /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F339D88A2A28DEE800FDE01B /* ExpansionsCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F339D88B2A28DEE800FDE01B /* ExpansionsCollectionViewController.swift */,
+			);
+			path = ExpansionsCollectionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +257,10 @@
 			dependencies = (
 			);
 			name = "Magic-App-";
+			packageProductDependencies = (
+				F339D89B2A28E00000FDE01B /* SnapKit */,
+				F339D89E2A28E01000FDE01B /* MTGSDKSwift */,
+			);
 			productName = "Magic-App-";
 			productReference = F339D7CF2A28DE2000FDE01B /* Magic-App-.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +333,10 @@
 				Base,
 			);
 			mainGroup = F339D7C62A28DE2000FDE01B;
+			packageReferences = (
+				F339D89A2A28E00000FDE01B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F339D89D2A28E01000FDE01B /* XCRemoteSwiftPackageReference "mtg-sdk-swift" */,
+			);
 			productRefGroup = F339D7D02A28DE2000FDE01B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +354,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F339D7DF2A28DE2100FDE01B /* LaunchScreen.storyboard in Resources */,
-				F339D7DC2A28DE2100FDE01B /* Assets.xcassets in Resources */,
-				F339D7DA2A28DE2000FDE01B /* Main.storyboard in Resources */,
+				F339D86C2A28DEB900FDE01B /* CardSets.json in Resources */,
+				F339D8A32A28E2CE00FDE01B /* Media.xcassets in Resources */,
+				F339D86D2A28DEB900FDE01B /* Card.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +381,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F339D7D72A28DE2000FDE01B /* ViewController.swift in Sources */,
-				F339D7D32A28DE2000FDE01B /* AppDelegate.swift in Sources */,
-				F339D7D52A28DE2000FDE01B /* SceneDelegate.swift in Sources */,
+				F339D8832A28DEDC00FDE01B /* LoaderView.swift in Sources */,
+				F339D8922A28DEE800FDE01B /* MyCardsViewController.swift in Sources */,
+				F339D8A12A28E0D200FDE01B /* MyCardsView.swift in Sources */,
+				F339D8712A28DED100FDE01B /* CardModel.swift in Sources */,
+				F339D8802A28DEDC00FDE01B /* VisualizationCardsViewCell.swift in Sources */,
+				F339D88E2A28DEE800FDE01B /* ExpansionsViewController.swift in Sources */,
+				F339D8852A28DEDC00FDE01B /* ExpansionsView.swift in Sources */,
+				F339D87E2A28DEDC00FDE01B /* VisualizationCardsCollectionViewDataSource.swift in Sources */,
+				F339D8812A28DEDC00FDE01B /* CollectionViewCellExpansions.swift in Sources */,
+				F339D8932A28DEE800FDE01B /* TabBarController.swift in Sources */,
+				F339D87F2A28DEDC00FDE01B /* ExpansionsCollectionViewDataSource.swift in Sources */,
+				F339D88F2A28DEE800FDE01B /* DetailsCardViewController.swift in Sources */,
+				F339D8952A28DF0D00FDE01B /* ViewConfiguration.swift in Sources */,
+				F339D8972A28DF2700FDE01B /* AppDelegate.swift in Sources */,
+				F339D8822A28DEDC00FDE01B /* VisualizationCardsView.swift in Sources */,
+				F339D8722A28DED100FDE01B /* CardSetsModel.swift in Sources */,
+				F339D8842A28DEDC00FDE01B /* DetailsCardView.swift in Sources */,
+				F339D8992A28DF3100FDE01B /* SceneDelegate.swift in Sources */,
+				F339D8912A28DEE800FDE01B /* ExpansionsCollectionViewController.swift in Sources */,
+				F339D8902A28DEE800FDE01B /* VisualizationCardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F339D7D82A28DE2000FDE01B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F339D7D92A28DE2000FDE01B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F339D7DD2A28DE2100FDE01B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +574,6 @@
 				INFOPLIST_FILE = "Magic-App-/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +601,6 @@
 				INFOPLIST_FILE = "Magic-App-/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +732,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F339D89A2A28E00000FDE01B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F339D89D2A28E01000FDE01B /* XCRemoteSwiftPackageReference "mtg-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MagicTheGathering/mtg-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F339D89B2A28E00000FDE01B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F339D89A2A28E00000FDE01B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F339D89E2A28E01000FDE01B /* MTGSDKSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F339D89D2A28E01000FDE01B /* XCRemoteSwiftPackageReference "mtg-sdk-swift" */;
+			productName = MTGSDKSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F339D7C72A28DE2000FDE01B /* Project object */;
 }
