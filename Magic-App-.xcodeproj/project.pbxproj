@@ -26,7 +26,6 @@
 		F339D88E2A28DEE800FDE01B /* ExpansionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8872A28DEE800FDE01B /* ExpansionsViewController.swift */; };
 		F339D88F2A28DEE800FDE01B /* DetailsCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8882A28DEE800FDE01B /* DetailsCardViewController.swift */; };
 		F339D8902A28DEE800FDE01B /* VisualizationCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8892A28DEE800FDE01B /* VisualizationCardsViewController.swift */; };
-		F339D8912A28DEE800FDE01B /* ExpansionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D88B2A28DEE800FDE01B /* ExpansionsCollectionViewController.swift */; };
 		F339D8922A28DEE800FDE01B /* MyCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D88C2A28DEE800FDE01B /* MyCardsViewController.swift */; };
 		F339D8932A28DEE800FDE01B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D88D2A28DEE800FDE01B /* TabBarController.swift */; };
 		F339D8952A28DF0D00FDE01B /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F339D8942A28DF0D00FDE01B /* ViewConfiguration.swift */; };
@@ -79,7 +78,6 @@
 		F339D8872A28DEE800FDE01B /* ExpansionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionsViewController.swift; sourceTree = "<group>"; };
 		F339D8882A28DEE800FDE01B /* DetailsCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCardViewController.swift; sourceTree = "<group>"; };
 		F339D8892A28DEE800FDE01B /* VisualizationCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizationCardsViewController.swift; sourceTree = "<group>"; };
-		F339D88B2A28DEE800FDE01B /* ExpansionsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpansionsCollectionViewController.swift; sourceTree = "<group>"; };
 		F339D88C2A28DEE800FDE01B /* MyCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardsViewController.swift; sourceTree = "<group>"; };
 		F339D88D2A28DEE800FDE01B /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F339D8942A28DF0D00FDE01B /* ViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
@@ -226,19 +224,10 @@
 				F339D8872A28DEE800FDE01B /* ExpansionsViewController.swift */,
 				F339D8882A28DEE800FDE01B /* DetailsCardViewController.swift */,
 				F339D8892A28DEE800FDE01B /* VisualizationCardsViewController.swift */,
-				F339D88A2A28DEE800FDE01B /* ExpansionsCollectionView */,
 				F339D88C2A28DEE800FDE01B /* MyCardsViewController.swift */,
 				F339D88D2A28DEE800FDE01B /* TabBarController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		F339D88A2A28DEE800FDE01B /* ExpansionsCollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				F339D88B2A28DEE800FDE01B /* ExpansionsCollectionViewController.swift */,
-			);
-			path = ExpansionsCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,7 +388,6 @@
 				F339D8722A28DED100FDE01B /* CardSetsModel.swift in Sources */,
 				F339D8842A28DEDC00FDE01B /* DetailsCardView.swift in Sources */,
 				F339D8992A28DF3100FDE01B /* SceneDelegate.swift in Sources */,
-				F339D8912A28DEE800FDE01B /* ExpansionsCollectionViewController.swift in Sources */,
 				F339D8902A28DEE800FDE01B /* VisualizationCardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
